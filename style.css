@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pppfl_header {
+	width: 90%;
+	margin: 6px auto;
+}
+
+.pppfl_message {
+	width: 90%;
+	margin: 6px auto;
+	background-color: #FCF;
+	text-align: center;
+}
+
+.pppfl_body {
+	width: 90%;
+	margin: 6px auto;
+}
+
+.pppfl_left {
+	float: left;
+	width: 50%;
+	overflow: hidden;
+}
+
+ul.pppfl_dna {
+	margin-left: 1em;
+}
+ul.pppfl_dna ul {
+	margin-left: 1em;
+}
+ul.pppfl_dna li {
+	display: block;
+	padding-left: 54px;
+	line-height: 24px;
+}
+ul.pppfl_dna li.pppfl_dir {
+	background: url(images/dir.png) top left no-repeat;
+}
+ul.pppfl_dna li.pppfl_file {
+	background: url(images/file.png) top left no-repeat;
+}
+
+.pppfl_right {
+	float: left;
+	overflow: hidden;
+	width: 50%;
+}
+
+.pppfl_footer {
+	clear: both;
+	width: 90%;
+	margin: 6px auto;
+}
+
